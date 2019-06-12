@@ -1,3 +1,194 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+    box-sizing: border-box;
+}
 
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+h1{
+ font-size: 75px;
+ font-family: Bangers; 
+ margin-left: 34px;
+ text-align: center; 
+
+}
+
+.whole {
+	display: block;
+	margin: 0 auto;
+	width: 875px;
+	margin-top: 30px;
+	margin-bottom: 80px;
+}
+
+.top{
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.nar{
+	/*display: inline-block;*/
+	display: flex;
+	margin-right: 0px; 
+	vertical-align: top; 
+	padding-top: 11px;
+}
+
+.lists{
+	display: inline;
+	margin-right: 60px; 
+	color: gray; 
+}
+
+.linetop{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.linebottom{
+	margin-top: 40px; 
+	margin-bottom: 40px; 
+}
+
+.first{
+	display: inline;
+}
+
+.middle-img{
+	margin-top: 40px;
+	margin-bottom: 40px; 
+}
+
+.firstinline{
+	display: flex;
+}
+
+.PO1{
+	width: 410px;
+	/*display: inline-block;*/
+	vertical-align: top; 
+	padding-top: 50px;
+
+	
+}
+
+.PO2{
+	width: 390px; 
+	/*display: inline-block;*/
+	
+}
+
+.secondinline{
+	display: flex;
+}
+
+.P1{
+	width: 410px;
+	/*display: inline-block;*/
+}
+
+.P2{
+	width: 410px; 
+	/*display: inline-block;*/
+	Margin-left: 30px; 
+}
+
+.thirdinline{
+	display: flex; 
+}
+
+.P3{
+	width: 260px; 
+	/*display: inline-block;*/
+	margin-right: 20px;
+}
+
+.P4{
+	width: 260px; 
+	/*display: inline-block;*/
+	margin-right: 20px
+}
+
+.P5{
+	width: 260px; 
+	/*display: inline-block;*/
+}
+
+.phonenumber{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copyright{
+	text-align: center; 
+	margin-top: 70px; 
+}
+.firstbutton{
+	margin-left: 153px;
+
+}
+button{
+	background: white; 
+	border: 1px solid black;
+	padding: 5px 30px;
+}
+
+ul{
+	padding-left: 40px;
+	list-style: initial;
+	margin-top: 17px;
+}
+
+li{
+	margin-top: 17px;
+	list-style-type: square;
+}
+
+.lastinline{
+	display:flex;
+}
+
+.last1{
+	width: 419px;
+}
+
+h2{
+	margin-top: 30px;
+}
+
+.content-box-container{
+
+	display:flex;
+}
+
+.content-boxes{
+	box-sizing: border-box;
+	background-color: #f4f3f4;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 21px;
+}
+
+.second-button{
+	margin-top: 20px;
+}
+
+.services{
+	font-size: 24px;
+}
+
+.below{
+	border-width: 1px;
+	border-color: black;
+}
 
