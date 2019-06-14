@@ -1,3 +1,281 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+* {
+    box-sizing: border-box;
+}
 
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+/* Your code starts here! */
+
+
+.whole {
+	display: block;
+	margin: 0 auto;
+	width: 100%;
+	/*margin-top: 30px;*/
+    margin-bottom: 80px;
+    padding: 40px;
+}
+@media(max-width: 500px){
+    .whole{
+        padding: 0px;
+    }
+}
+.top{
+	display: flex;
+	margin-bottom: 50px;
+}
+@media(max-width: 800px){
+    .top{
+        flex-direction: column-reverse;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+}
+@media(max-width: 500px){
+    .top{
+        width: 100%;
+    }
+}
+.nar{
+	/*display: inline-block;*/
+    display: flex;
+    justify-content: space-evenly;
+	margin-right: 0px; 
+	vertical-align: top; 
+    padding-top: 11px;
+    width: 100%;
+}
+@media(max-width: 800px){
+    .nar{
+        padding-top: 20px;
+    }
+}
+
+@media(max-width: 500px){
+    .lists {
+        border-bottom: 1px solid black;
+    }
+    .first-lists {
+        border-top: 1px solid black;
+    }   
+
+    .nar{
+        flex-direction: column; 
+        justify-content: center;
+        text-align: center; 
+        width: 100%;
+    }
+}
+.lists{
+	display: inline;
+	/*margin-right: 60px;*/
+	color: gray; 
+}
+
+.linetop{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.linebottom{
+	margin-top: 40px; 
+	margin-bottom: 40px; 
+}
+
+.first{
+	display: inline;
+}
+
+.middle-img{
+    width: 100%; 
+	margin-top: 40px;
+	margin-bottom: 40px; 
+}
+
+.firstinline{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100% 
+}
+
+.PO1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+	/*display: inline-block;*/
+	vertical-align: top; 
+	padding-top: 50px;	
+}
+@media (max-width: 800px){
+    .PO1{
+    padding-top: 0px;
+    }
+}
+h1{
+    font-size: 75px;
+    font-family: Bangers; 
+    /*margin-left: 34px;*/
+    text-align: center; 
+   }
+
+.PO2{
+    width: 50%; 
+    display: flex;
+    justify-content: center; 
+	/*display: inline-block;*/
+	
+}
+@media(max-width: 800px){
+    .PO2{
+         display: none; 
+    }
+}
+.secondinline{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%; 
+}
+
+@media(max-width: 500px){
+    .secondinline{
+        flex-direction: column;
+    }
+}
+
+.P1{
+	width: 45%;
+	/*display: inline-block;*/
+}
+@media(max-width: 500px){
+    .P1{
+        width: 100%;
+    }
+}
+.P2{
+	width: 45%; 
+	/*display: inline-block;*/
+	/*Margin-left: 30px; */
+}
+@media(max-width: 500px){
+    .P2{
+        width: 100%;}
+}
+.thirdinline{
+    display: flex; 
+    justify-content: space-evenly;
+    width: 100%; 
+}
+@media(max-width: 500px){
+    .thirdinline {
+        flex-direction: column;
+    }
+}
+
+.P3{
+	width: 30%; 
+	/*display: inline-block;*/
+	/*margin-right: 20px;*/
+}
+@media(max-width: 500px){
+    .P3{
+        width:100%;
+    }
+}
+.P4{
+	width: 30%; 
+	/*display: inline-block;*/
+	/*margin-right: 20px; */
+}
+@media(max-width: 500px){
+    .P4{
+        width: 100%;
+    }
+}
+.P5{
+	width: 30%; 
+	/*display: inline-block;*/
+}
+@media(max-width: 500px){
+    .P5{
+        width: 100%;
+    }
+}
+.phonenumber{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.copyright{
+	text-align: center; 
+	margin-top: 70px; 
+}
+.firstbutton{
+	/*margin-left: 153px;*/
+
+}
+button{
+	background: white; 
+	border: 1px solid black;
+	padding: 5px 30px;
+}
+
+ul{
+	padding-left: 40px;
+	list-style: initial;
+	margin-top: 17px;
+}
+
+li{
+	margin-top: 17px;
+	list-style-type: square;
+}
+
+.lastinline{
+	display:flex;
+}
+
+.last1{
+	width: 419px;
+}
+
+h2{
+	margin-top: 30px;
+}
+
+.content-box-container{
+
+	display:flex;
+}
+
+.content-boxes{
+	box-sizing: border-box;
+	background-color: #f4f3f4;
+	padding: 20px;
+	border: 1px solid black;
+	margin: 21px;
+}
+
+.second-button{
+	margin-top: 20px;
+}
+
+.services{
+	font-size: 24px;
+}
+
+.below{
+	border-width: 1px;
+	border-color: black;
+}
 
